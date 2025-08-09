@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Document</title>
+</head>
+<body class="overflow-x-hidden">
+
+  <header class="relative flex items-center justify-between lg:px-10 lg:py-5 p-5">
+    <h1 class="text-[#f74780] md:text-4xl text-3xl font-bold"><span><i class="fa-solid fa-envelope"></i></span> Mailler</h1>
+    <nav>
+        <ul class="hidden lg:flex gap-5 items-center font-semibold">
+            <li><a class="text-[#f74780]" href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Pages</a></li>
+            <li><a href="">Contact Us</a></li>
+            <div class="flex  items-center gap-5">
+                <a class="px-7 py-2 text-[#f74780] border-[#f74780] border rounded-full hover:bg-[#f74780] duration-500 transition-all hover:text-white" href="">Log In</a>
+                <a class="px-7 py-2 text-white  bg-[#f74780] rounded-full hover:bg-transparent hover:text-[#f74780] hover:border duration-500 transition-all hover:border-[#f74780]" href="">Sign Up</a>
+            </div>
+        </ul>
+    </nav>
+    <div class="lg:hidden">
+        <button class="lg:hidden" id="menu-btn"><i class="fa-solid fa-bars text-3xl text-[#f74780] "></i></button>
+        <nav class="hidden" id="menu">
+            <ul class=" absolute top-0 left-0 bg-white  w-full h-screen justify-center  flex flex-col gap-5 items-center font-semibold">
+                <li><a class="text-[#f74780]" href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Pages</a></li>
+                <li><a href="">Contact Us</a></li>
+                <div class="flex items-center gap-5">
+                    <a class="px-7 py-2 text-[#f74780] border-[#f74780] border rounded-full hover:bg-[#f74780] duration-500 transition-all hover:text-white" href="">Log In</a>
+                    <a class="px-7 py-2 text-white  bg-[#f74780] rounded-full hover:bg-transparent hover:text-[#f74780] hover:border duration-500 transition-all hover:border-[#f74780]" href="">Sign Up</a>
+                </div>
+            </ul>
+            <div><button id="closebtn" class="text-[#f74780] absolute top-0 right-0 p-5 text-2xl"><i class="fa-solid fa-x"></i></button></div>
+        </nav>
+    </div>
+
+  </header>
+    
+  <section class=" w-full h-screen flex items-start lg:py-16 lg:px-16  py-20 px-10 ">
+    <div class="lg:w-[50%] flex flex-col lg:gap-3 gap-3 ">
+        <h1 class="lg:text-6xl md:text-5xl text-4xl text-[#353f4f] font-bold">Turn Emails into Revenue</h1>
+        <p class="lg:text-2xl md:text-2xl text-xl text-[#757575] md:max-w-xl">Win new customers with the #1 email marketing and automations brand* that recommends ways to get more opens, clicks, and sales.</p>
+        <div><a class="px-12 py-4 text-white  bg-[#f74780] rounded-full hover:bg-transparent hover:text-[#f74780] hover:border duration-500 transition-all hover:border-[#f74780]" href="">Get Started</a></div>
+    </div>
+  </section>
+   <section class=" w-full h-screen  flex md:justify-end" >
+    <div class="lg:w-1/2 xl:w-[45%] md:p-0 px-5 py-10 ">
+        <h1 class="text-[#f74780] md:text-2xl text-3xl font-bold">About Us</h1>
+        <h1 class="text-[#353f4f] md:text-6xl text-3xl font-bold">Get Started Easily With a Personalized Product Tour</h1>
+        <p class="text-[#757575]  md:text-lg text-sm md:max-w-xl">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, suscipit itaque quae rat dicta porro illum, autem, molestias ut animi ab aspernatur dolorum officia nam dolore. Voluptatibus aliquam earum labore atque.</p>
+        <div><a class="sm:px-12 sm:py-4 px-5 py-3 text-white  bg-[#f74780] rounded-full hover:bg-transparent hover:text-[#f74780] hover:border duration-500 transition-all hover:border-[#f74780]" href="">About More</a></div>
+
+    </div>
+   </section>
+    <div class="w-12 h-12 bg-[#f74780] rounded-full hover:bg-transparent hover:border hover:border-[#f74780] transition-all duration-500 hover:text-[#f74780] fixed bottom-0 right-0 mr-5 mb-5 text-white font-bold flex items-center justify-center">
+        <a href=""><i class="fa-solid fa-arrow-up"></i></a>
+    </div>
+    <div class="blob"></div>
+
+    <!-- SVG Rings -->
+        <svg class=" ring ring1" width="300" height="300">
+            <circle cx="150" cy="150" r="140" stroke="rgba(255,0,100,0.08)" stroke-width="15" fill="none"/>
+          </svg>
+          <svg class="ring ring2" width="200" height="200">
+            <circle cx="100" cy="100" r="90" stroke="rgba(100,0,255,0.06)" stroke-width="15" fill="none"/>
+          </svg>
+          <svg class="ring ring3" width="120" height="120">
+            <circle cx="60" cy="60" r="50" stroke="rgba(255,0,100,0.08)" stroke-width="10" fill="none"/>
+          </svg>
+        
+          <!-- Content -->
+          
+          <style>
+               svg, svg * {
+            outline: none !important;
+            box-shadow: none !important;
+          }
+              body {
+                margin: 0;
+                font-family: sans-serif;
+                background: white;
+              }
+          
+              .container {
+                position: relative;
+                width: 100%;
+                height: 100vh;
+                padding: 60px;
+                box-sizing: border-box;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                z-index: 1;
+              }
+          
+              /* Large blob on right */
+              .blob {
+                position: absolute;
+                top: -15%;
+                right: -30%;
+                width: 1100px;
+                height: 1100px;
+                background: #f8f8fc;
+                border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+                animation: blobMove 12s ease-in-out infinite;
+                z-index: -2;
+              }
+          
+              @keyframes blobMove {
+                0%, 100% {
+                  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+                  transform: translate(0, 0);
+                }
+                50% {
+                  border-radius: 40% 60% 70% 30% / 50% 60% 40% 70%;
+                  transform: translate(20px, -20px);
+                }
+              }
+          
+              /* Floating Rings */
+              .ring {
+                position: absolute;
+                animation: float 8s ease-in-out infinite;
+                z-index: -1;
+              }
+              .ring1 {
+                top: 20%;
+                left: -10%;
+                animation-delay: 0s;
+              }
+              .ring2 {
+                top: 50%;
+                left: 5%;
+                animation-delay: 2s;
+              }
+              .ring3 {
+                top: 10%;
+                left: 15%;
+                animation-delay: 4s;
+              }
+          
+              @keyframes float {
+                0%, 100% { transform: translateY(0) rotate(0deg); }
+                50% { transform: translateY(-15px) rotate(5deg); }
+              }
+          
+              /* Button style */
+              .btn {
+                background: #f84577;
+                color: white;
+                padding: 14px 30px;
+                border-radius: 999px;
+                display: inline-block;
+                font-weight: bold;
+                text-decoration: none;
+                transition: background 0.3s;
+              }
+              .btn:hover {
+                background: #e23565;
+              }
+          
+              h1 {
+                color: #2b2f38;
+                font-size: 3rem;
+                margin-bottom: 10px;
+              }
+          
+              p {
+                color: #666;
+                font-size: 1rem;
+                max-width: 400px;
+                margin-bottom: 30px;
+              }
+            
+      
+            </style>
+    
+      <script src="./script.js"></script>
+</body>
+</html>
