@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Document</title>
+</head>
+<body class="overflow-x-hidden bg-[#fff]">
+
+  <header class="relative flex items-center justify-between lg:px-10 lg:py-5 p-5">
+    <h1 class="text-[#f74780] md:text-4xl text-3xl font-bold"><span><i class="fa-solid fa-envelope"></i></span> Mailler</h1>
+    <nav>
+        <ul class="hidden lg:flex gap-5 items-center font-semibold">
+            <li><a class="text-[#f74780]" href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Pages</a></li>
+            <li><a href="">Contact Us</a></li>
+            <div class="flex  items-center gap-5">
+                <a class="px-7 py-2 text-[#f74780] border-[#f74780] border rounded-full hover:bg-[#f74780] duration-500 transition-all hover:text-white" href="">Log In</a>
+                <a class="px-7 py-2 text-white  bg-[#f74780] rounded-full hover:bg-transparent hover:text-[#f74780] hover:border duration-500 transition-all hover:border-[#f74780]" href="">Sign Up</a>
+            </div>
+        </ul>
+    </nav>
+    <div class="lg:hidden">
+        <button class="lg:hidden" id="menu-btn"><i class="fa-solid fa-bars text-3xl text-[#f74780] "></i></button>
+        <nav class="hidden" id="menu">
+            <ul class=" absolute top-0 left-0 bg-white  w-full h-screen justify-center  flex flex-col gap-5 items-center font-semibold">
+                <li><a class="text-[#f74780]" href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Pages</a></li>
+                <li><a href="">Contact Us</a></li>
+                <div class="flex items-center gap-5">
+                    <a class="px-7 py-2 text-[#f74780] border-[#f74780] border rounded-full hover:bg-[#f74780] duration-500 transition-all hover:text-white" href="">Log In</a>
+                    <a class="px-7 py-2 text-white  bg-[#f74780] rounded-full hover:bg-transparent hover:text-[#f74780] hover:border duration-500 transition-all hover:border-[#f74780]" href="">Sign Up</a>
+                </div>
+            </ul>
+            <div><button id="closebtn" class="text-[#f74780] absolute top-0 right-0 p-5 text-2xl"><i class="fa-solid fa-x"></i></button></div>
+        </nav>
+    </div>
+
+  </header>
+    
+  <section class=" w-full h-screen flex items-start lg:py-16 lg:px-16  py-20 px-10 ">
+    <div class="lg:w-[50%] flex flex-col lg:gap-3 gap-3 ">
+        <h1 class="lg:text-6xl md:text-5xl text-4xl text-[#353f4f] font-bold">Turn Emails into Revenue</h1>
+        <p class="lg:text-2xl md:text-2xl text-xl text-[#757575] md:max-w-xl">Win new customers with the #1 email marketing and automations brand* that recommends ways to get more opens, clicks, and sales.</p>
+        <div><a class="px-12 py-4 text-white  bg-[#f74780] rounded-full hover:bg-transparent hover:text-[#f74780] hover:border duration-500 transition-all hover:border-[#f74780]" href="">Get Started</a></div>
+    </div>
+  </section>
+   <section class=" w-full h-screen mt-20  flex md:justify-end" >
+    <div class="lg:w-1/2 xl:w-[45%] md:w-[60%] lg:mr-32  md:p-0 px-10 py-10 ">
+        <h1 class="text-[#f74780] md:text-2xl text-3xl font-bold">About Us</h1>
+        <h1 class="text-[#353f4f] lg:text-6xl md:text-4xl text-4xl font-bold">Get Started Easily With a Personalized Product Tour</h1>
+        <p class="text-[#757575] lg:text-xl  md:text-[18px] text-sm md:max-w-xl">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, suscipit itaque quae rat dicta porro illum, autem, molestias ut animi ab aspernatur dolorum officia nam dolore. Voluptatibus aliquam earum labore atque.</p>
+        <div><a class="sm:px-12 sm:py-4 px-5 py-3 text-white  bg-[#f74780] rounded-full hover:bg-transparent hover:text-[#f74780] hover:border duration-500 transition-all hover:border-[#f74780]" href="">About More</a></div>
+
+    </div>
+   </section>
+   <section class="w-full mt-20">
+    <div class="text-center flex flex-col items-center w-full gap-3 px-5">
+      <h3 class="text-[#f74780] text-2xl">Our Service</h3>
+      <h1 class="text-[#353f4f] lg:text-6xl">What We Can Do For You</h1>
+      <p class="max-w-4xl text-[#757575] text-[16px]">Dolor sit amet consectetur, adipisicing elit. Ipsam, beatae maxime. Vel animi eveniet doloremque reiciendis soluta iste provident non rerum illum perferendis earum est architecto dolores vitae quia vero quod incidunt culpa corporis, porro doloribus. Voluptates nemo doloremque cum. </p>
+    </div>
+    <div class="lg:grid lg:grid-cols-4 sm:grid sm:grid-cols-2 grid grid-cols-1 xl:gap-5 xl:px-24 p-10 gap-5 md:grid md:grid-cols-3 place-items-center">
+      <div class="xl:w-[261px] xl:h-[414px] bg-[#ffffff] shadow-lg rounded-lg sm:p-5 p-10 flex flex-col items-center justify-center gap-5 text-center hover:bg-[rgba(102,16,242,0.09)] duration-500 transition-all">
+        <div class="bg-[#f6f6fa] text-[#6610f2] w-32 h-32 flex items-center justify-center rounded-lg"><i class="fas fa-mail-bulk fa-5x text-secondary"></i></div>
+        <h1 class="text-xl font-bold">Email Newsletters</h1>
+        <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit.consectetur adipisicing elit </p>
+        <div><a class=" px-5 py-3   bg-[#f6f6fa] rounded-full  text-[#f74780] hover:text-white hover:bg-[#f74780] duration-500 transition-all" href="">Read More</a></div>
+      </div>
+      <div class="xl:w-[261px] xl:h-[414px] bg-[#ffffff] shadow-lg rounded-lg p-5 flex flex-col items-center justify-center gap-5 text-center">
+        <div class="bg-[#f6f6fa] text-[#6610f2] w-32 h-32 flex items-center justify-center rounded-lg"><i class="fas fa-thumbs-up fa-5x text-secondary"></i></div>
+        <h1 class="text-xl font-bold">Acquistion Emails </h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.consectetur adipisicing elit </p>
+        <div><a class=" px-5 py-3   bg-[#f6f6fa] rounded-full  text-[#f74780] " href="">Read More</a></div>
+      </div>
+      <div class="xl:w-[261px] xl:h-[414px] bg-[#ffffff] shadow-lg rounded-lg p-5 flex flex-col items-center justify-center gap-5 text-center">
+        <div class="bg-[#f6f6fa] text-[#6610f2] w-32 h-32 flex items-center justify-center rounded-lg"><i class="fa fa-subway fa-5x text-secondary"></i></div>
+        <h1 class="text-xl font-bold">Retention Emails</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.consectetur adipisicing elit </p>
+        <div><a class=" px-5 py-3   bg-[#f6f6fa] rounded-full  text-[#f74780] " href="">Read More</a></div>
+      </div>
+      <div class="xl:w-[261px] xl:h-[414px] bg-[#ffffff] shadow-lg rounded-lg p-5 flex flex-col items-center justify-center gap-5 text-center">
+        <div class="bg-[#f6f6fa] text-[#6610f2] w-32 h-32 flex items-center justify-center rounded-lg"><i class="fas fa-sitemap fa-5x text-secondary"></i></div>
+        <h1 class="text-xl font-bold">Promotional Emails</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.consectetur adipisicing elit </p>
+        <div><a class=" px-5 py-3   bg-[#f6f6fa] rounded-full  text-[#f74780] " href="">Read More</a></div>
+      </div>
+      <div class="xl:w-[261px] xl:h-[414px] bg-[#ffffff] shadow-lg rounded-lg p-5 flex flex-col items-center justify-center gap-5 text-center">
+        <div class="bg-[#f6f6fa] text-[#6610f2] w-32 h-32 flex items-center justify-center rounded-lg"><i class="fas fa-mail-bulk fa-5x text-secondary"></i></div>
+        <h1 class="text-xl font-bold">Email Newsletters</h1>
+        <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit.consectetur adipisicing elit </p>
+        <div><a class=" px-5 py-3   bg-[#f6f6fa] rounded-full  text-[#f74780] " href="">Read More</a></div>
+      </div>
+      <div class="xl:w-[261px] xl:h-[414px] bg-[#ffffff] shadow-lg  rounded-lg p-5 flex flex-col items-center justify-center gap-5 text-center">
+        <div class="bg-[#f6f6fa] text-[#6610f2] w-32 h-32 flex items-center justify-center rounded-lg"><i class="fas fa-thumbs-up fa-5x text-secondary"></i></div>
+        <h1 class="text-xl font-bold">Acquistion Emails </h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.consectetur adipisicing elit </p>
+        <div><a class=" px-5 py-3   bg-[#f6f6fa] rounded-full  text-[#f74780] " href="">Read More</a></div>
+      </div>
+      <div class="xl:w-[261px] xl:h-[414px] bg-[#ffffff] shadow-lg rounded-lg p-5 flex flex-col items-center justify-center gap-5 text-center">
+        <div class="bg-[#f6f6fa] text-[#6610f2] w-32 h-32 flex items-center justify-center rounded-lg"><i class="fa fa-subway fa-5x text-secondary"></i></div>
+        <h1 class="text-xl font-bold">Retention Emails</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.consectetur adipisicing elit </p>
+        <div><a class=" px-5 py-3   bg-[#f6f6fa] rounded-full  text-[#f74780] " href="">Read More</a></div>
+      </div>
+      <div class="xl:w-[261px] xl:h-[414px] bg-[#ffffff] shadow-lg rounded-lg p-5 flex flex-col items-center justify-center gap-5 text-center">
+        <div class="bg-[#f6f6fa] text-[#6610f2] w-32 h-32 flex items-center justify-center rounded-lg"><i class="fas fa-sitemap fa-5x text-secondary"></i></div>
+        <h1 class="text-xl font-bold">Promotional Emails</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.consectetur adipisicing elit </p>
+        <div><a class=" px-5 py-3   bg-[#f6f6fa] rounded-full  text-[#f74780] " href="">Read More</a></div>
+      </div>
+    </div>
+   </section>
+   <section class="w-full flex flex-col mt-20 gap-5 items-center">
+    <div class="text-center flex flex-col items-center w-full gap-3 px-5">
+      <h3 class="text-[#f74780] text-2xl">Our Feature</h3>
+      <h1 class="text-[#353f4f] lg:text-4xl text-3xl font-bold">Important Features For Email Marketing</h1>
+      <p class="max-w-4xl text-[#757575] text-sm sm:text-[16px]">Dolor sit amet consectetur, adipisicing elit. Ipsam, beatae maxime. Vel animi eveniet doloremque reiciendis soluta iste provident non rerum illum perferendis earum est architecto dolores vitae quia vero quod incidunt culpa corporis, porro doloribus. Voluptates nemo doloremque cum. </p>
+    </div>
+    <div class="grid grid-cols-1 sm:grid sm:grid-cols-2 md:grid md:grid-cols-4 xl:px-24 gap-5  place-items-center">
+      <div class="flex flex-col items-center gap-5 placeholder-amber-300 text-center">
+        <div class="bg-[#f6f6fa] text-[#6610f2] w-32 h-32 flex items-center justify-center rounded-lg"><i class="fas fa-envelope fa-5x text-secondary"></i></div>
+         <h1 class="text-2xl font-bold">Email Marketing</h1> 
+         <p class="text-[#757575]">Lorem ipsum dolor sit amet consectetur adipisicing elit.consectetur adipisicing elit </p>
+      </div>
+      <div class="flex flex-col items-center gap-5 placeholder-amber-300 text-center">
+        <div class="bg-[#f6f6fa] text-[#6610f2] w-32 h-32 flex items-center justify-center rounded-lg"><i class="fas fa-mail-bulk fa-5x text-secondary"></i></div>
+         <h1 class="text-2xl font-bold">Email builder</h1> 
+         <p class="text-[#757575]">Lorem ipsum dolor sit amet consectetur adipisicing elit.consectetur adipisicing elit </p>
+      </div>
+      <div class="flex flex-col items-center gap-5 placeholder-amber-300 text-center">
+        <div class="bg-[#f6f6fa] text-[#6610f2] w-32 h-32 flex items-center justify-center rounded-lg"><i class="fas fa-sitemap fa-5x text-secondary"></i></div>
+         <h1 class="text-2xl font-bold">customer Builder</h1> 
+         <p class="text-[#757575]">Lorem ipsum dolor sit amet consectetur adipisicing elit.consectetur adipisicing elit </p>
+      </div>
+      <div class="flex flex-col items-center gap-5 placeholder-amber-300 text-center">
+        <div class="bg-[#f6f6fa] text-[#6610f2] w-32 h-32 flex items-center justify-center rounded-lg"><i class="fas fa-tasks fa-5x text-secondary"></i></div>
+         <h1 class="text-2xl font-bold">Campaign Manager</h1> 
+         <p class="text-[#757575]">Lorem ipsum dolor sit amet consectetur adipisicing elit.consectetur adipisicing elit </p>
+      </div>
+      
+    </div>
+    <div><a class="text-white bg-[#f74780] px-12 py-4  rounded-full hover:bg-transparent hover:border hover:border-[#f74780] hover:text-[#f74780] duration-500 transition-all" href="">More Features</a></div>
+   </section>
+   <section class="w-full mt-20 px-12">
+    <div class=" md:flex justify-center items-center gap-12">
+      <div class="md:w-1/2 md:h-1/2  px-12 bg-[url('/blob.svg')] ">
+        <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+          <path fill="#F74780" d="M32.2,-55.5C44.4,-48.8,58.7,-45.5,62.9,-36.8C67,-28.1,60.9,-14.1,62,0.6C63.1,15.3,71.3,30.6,69.6,43.5C67.9,56.4,56.3,66.8,43,70.1C29.7,73.5,14.9,69.7,-0.1,69.8C-15,69.9,-30,74,-37.7,67.4C-45.3,60.8,-45.6,43.6,-45.3,30.6C-45,17.6,-44.3,8.8,-48.4,-2.3C-52.4,-13.5,-61.3,-27,-58.1,-34C-54.9,-41,-39.6,-41.5,-27.9,-48.5C-16.2,-55.5,-8.1,-69,1,-70.7C10,-72.3,20.1,-62.2,32.2,-55.5Z" transform="translate(100 100)" />
+        </svg>
+      </div>
+      <div class="md:w-1/2">
+        <h1 class="text-[#f74780] text-2xl">Fearutes</h1>
+        <h1 class="text-6xl">Push Your Visitors Into Happy Customers</h1>
+        <p class="max-w-xl">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, suscipit itaque quaerat dicta porro illum, autem, molestias ut animi ab aspernatur dolorum officia nam dolore. Voluptatibus aliquam earum labore atque. </p>
+        <div class="grid grid-cols-2">
+          <div class="flex gap-5 ">
+            <a href=""><i class="fas fa-newspaper fa-4x text-secondary text-[#6610f2]"></i></a>
+            <div class="flex flex-col ">
+              <h1 class="text-2xl font-bold">285</h1>
+              <p class="text-sm">Created Projects</p>
+            </div>
+          </div>
+          <div class="flex gap-5">
+           <a href=""><i class="fas fa-users fa-4x text-secondary text-[#6610f2]"></i></a>
+            <div class="flex flex-col ">
+              <h1 class="text-2xl font-bold">6565</h1>
+              <p class="text-sm">Happy Clients</p>
+            </div>
+          </div>
+        </div>
+        <div><a class="px-12 py-4 text-white bg-[#f74780] rounded-full" href="">Read More</a></div>
+      </div>
+
+    </div>
+   </section>
+   <section class="w-full mt-20">
+    <div class="text-center flex flex-col items-center w-full gap-3 px-5">
+      <h3 class="text-[#f74780] text-2xl">Pricing Plan</h3>
+      <h1 class="text-[#353f4f] lg:text-6xl">Not Sure Which Plan Is For You?</h1>
+      <p class="max-w-4xl text-[#757575] text-[16px]">Dolor sit amet consectetur, adipisicing elit. Ipsam, beatae maxime. Vel animi eveniet doloremque reiciendis soluta iste provident non rerum illum perferendis earum est architecto dolores vitae quia vero quod incidunt culpa corporis, porro doloribus. Voluptates nemo doloremque cum. </p>
+    </div>
+    <div class="grid grid-cols-1 md:grid md:grid-cols-3 xl:px-12 p-5 gap-5 place-items-center">
+     <div class="w-[340px] h-[730px]   flex flex-col justify-between rounded-2xl bg-[#f6f6fa] px-10 py-10 items-center">
+      <div class=" flex flex-col items-center justify-center">
+        <h1 class="text-4xl font-bold text-[#353f4f]">BASIC</h1>
+        <h1 class="text-4xl font-bold text-[#353f4f]">00$</h1>
+        <hr>
+      </div>
+      <div class="flex flex-col">
+        <ul class="flex flex-col gap-2">
+          <li><i class="fa-solid fa-check text-green-700 text-xl"></i> Limited Acess Library</li>
+          <li><i class="fa-solid fa-check text-green-700 text-xl"></i>  Customer Support</li>
+          <li><i class="fa-solid fa-check text-green-700 text-xl"></i>  Pre-built Email Templates</li>
+          <li><i class="fa-solid fa-check text-green-700 text-xl"></i>  Reporting & Analytics</li>
+          <li><i class="fa-solid fa-check text-green-700 text-xl"></i>  Forms & Landing Pages</li>
+          <li><i class="fa-solid fa-check text-green-700 text-xl"></i>  A/B Testing</li>
+          <li><i class="fa-solid fa-check text-green-700 text-xl"></i>  Email Scheduling</li>
+          <li><i class="fa-solid fa-check text-green-700 text-xl"></i>  Automated Customer Journeys </li>
+          <li><i class="fa-solid fa-xmark text-red-700 text-xl"></i>  Creative Assistant</li>
+          <li><i class="fa-solid fa-xmark text-red-700 text-xl"></i>  Role-based Access</li>
+
+        </ul>
+
+      </div>
+      <div><a class="px-7 py-3 bg-[#f74780] text-white rounded-full" href="">Get Started</a></div>
+     </div>
+     <div class="w-[340px] h-[730px] flex flex-col justify-between rounded-2xl bg-[#f6f6fa] px-10 py-5 relative overflow-hidden">
+      <div class="pice-item-offer absolute top-[-45px] right-[-80px] flex items-end justify-center text-white  pb-[10px] bg-[#f74780] w-[200px] h-[110px] " style="transform: rotate(42deg);">Popular</div>
+      <div class=" flex flex-col items-center justify-center">
+        <h1 class="text-4xl font-bold text-[#f74780]">Standard</h1>
+        <h1 class="text-4xl font-bold text-[#f74780] ">23 $</h1>
+        <hr>
+      </div>
+      <div class="flex flex-col">
+        <ul class="flex flex-col gap-2">
+          <li><i class="fa-solid fa-check text-green-700 text-xl"></i> Limited Acess Library</li>
+          <li><i class="fa-solid fa-check text-green-700 text-xl"></i>  Customer Support</li>
+          <li><i class="fa-solid fa-check text-green-700 text-xl"></i>  Pre-built Email Templates</li>
+          <li><i class="fa-solid fa-check text-green-700 text-xl"></i>  Reporting & Analytics</li>
+          <li><i class="fa-solid fa-check text-green-700 text-xl"></i>  Forms & Landing Pages</li>
+          <li><i class="fa-solid fa-check text-green-700 text-xl"></i>  A/B Testing</li>
+          <li><i class="fa-solid fa-check text-green-700 text-xl"></i>  Email Scheduling</li>
+          <li><i class="fa-solid fa-check text-green-700 text-xl"></i>  Automated Customer Journeys </li>
+          <li><i class="fa-solid fa-check text-green-700 text-xl"></i>  Creative Assistant</li>
+          <li><i class="fa-solid fa-xmark text-red-700 text-xl"></i>  Role-based Access</li>
+
+        </ul>
+
+      </div>
+      <div><a class="px-7 py-3 bg-[#f74780] text-white rounded-full" href="">Get Started</a></div>
+     </div>
+     <div class="w-[340px] h-[730px] flex flex-col justify-between rounded-2xl bg-[#f6f6fa] px-10 py-5 ">
+      <div class=" flex flex-col items-center justify-center  w-full p-5 ">
+        <h1 class="text-4xl font-bold text-[#6610f2]">PERMIUM</h1>
+        <h1 class="text-4xl font-bold text-[#6610f2]">49 $</h1>
+      
+
+      </div>
+      <div class="flex flex-col">
+        <ul class="flex flex-col gap-2">
+          <li><i class="fa-solid fa-check text-green-700 text-xl"></i> Limited Acess Library</li>
+          <li><i class="fa-solid fa-check text-green-700 text-xl"></i>  Customer Support</li>
+          <li><i class="fa-solid fa-check text-green-700 text-xl"></i>  Pre-built Email Templates</li>
+          <li><i class="fa-solid fa-check text-green-700 text-xl"></i>  Reporting & Analytics</li>
+          <li><i class="fa-solid fa-check text-green-700 text-xl"></i>  Forms & Landing Pages</li>
+          <li><i class="fa-solid fa-check text-green-700 text-xl"></i>  A/B Testing</li>
+          <li><i class="fa-solid fa-check text-green-700 text-xl"></i>  Email Scheduling</li>
+          <li><i class="fa-solid fa-check text-green-700 text-xl"></i>  Automated Customer Journeys </li>
+          <li><i class="fa-solid fa-check text-green-700 text-xl"></i>  Creative Assistant</li>
+          <li><i class="fa-solid fa-check text-green-700 text-xl"></i>  Role-based Access</li>
+
+        </ul>
+
+      </div>
+      <div><a class="px-7 py-3 bg-[#f74780] text-white rounded-full" href="">Get Started</a></div>
+     </div>
+    </div>
+   </section>
+   <section class="w-full mt-20">
+    <div class="text-center flex flex-col items-center w-full gap-3 px-5">
+      <h3 class="text-[#f74780] text-2xl">Our Blog</h3>
+      <h1 class="text-[#353f4f] lg:text-6xl">Join Us For New Blog</h1>
+      <p class="max-w-4xl text-[#757575] text-[16px]">Dolor sit amet consectetur, adipisicing elit. Ipsam, beatae maxime. Vel animi eveniet doloremque reiciendis soluta iste provident non rerum illum perferendis earum est architecto dolores vitae quia vero quod incidunt culpa corporis, porro doloribus. Voluptates nemo doloremque cum. </p>
+    </div>
+    <div class="grid grid-cols-1 md:grid md:grid-cols-2 sm:grid sm:px-10  sm:grid-cols-2 gap-4 lg::grid lg:grid-cols-4 md:px-32 md:gap-5  place-items-center lg:px-12  p-5 ">
+      
+      <div class="bg-white shadow-lg  w-[261px] h-[284px] py-10 px-5 rounded-lg relative overflow-hidden">
+        <div class="w-[261px] h-6 bg-[#c7a8f9] absolute top-0 left-0"></div>
+        <h1 class="text-2xl">Dolor, sit amet consectetur adipisicing</h1>
+        <p class="text-sm">Lorem ipsum dolor sit amet consectur adip sed eiusmod amet consectur adip.</p>
+        <div><a class="px-5 py-3 text-[#f74780] hover:bg-[#f74780] hover:text-white duration-500 transition-all rounded-full bg-[#f6f6fa]" href="">Read More</a></div>
+      </div>
+      <div class="bg-white shadow-lg  w-[261px] h-[284px] py-10 px-5 rounded-lg relative overflow-hidden">
+        <div class="w-[261px] h-6 bg-[#c7a8f9] absolute top-0 left-0"></div>
+        <h1 class="text-2xl">Dolor, sit amet consectetur adipisicing</h1>
+        <p class="text-sm">Lorem ipsum dolor sit amet consectur adip sed eiusmod amet consectur adip.</p>
+        <div><a class="px-5 py-3 text-[#f74780] hover:bg-[#f74780] hover:text-white duration-500 transition-all rounded-full bg-[#f6f6fa]" href="">Read More</a></div>
+      </div>
+      <div class="bg-white shadow-lg  w-[261px] h-[284px] py-10 px-5 rounded-lg relative overflow-hidden">
+        <div class="w-[261px] h-6 bg-[#c7a8f9] absolute top-0 left-0"></div>
+        <h1 class="text-2xl">Dolor, sit amet consectetur adipisicing</h1>
+        <p class="text-sm">Lorem ipsum dolor sit amet consectur adip sed eiusmod amet consectur adip.</p>
+        <div><a class="px-5 py-3 text-[#f74780] hover:bg-[#f74780] hover:text-white duration-500 transition-all rounded-full bg-[#f6f6fa]" href="">Read More</a></div>
+      </div>
+      <div class="bg-white shadow-lg  w-[261px] h-[284px] py-10 px-5 rounded-lg relative overflow-hidden">
+        <div class="w-[261px] h-6 bg-[#c7a8f9] absolute top-0 left-0"></div>
+        <h1 class="text-2xl">Dolor, sit amet consectetur adipisicing</h1>
+        <p class="text-sm">Lorem ipsum dolor sit amet consectur adip sed eiusmod amet consectur adip.</p>
+        <div><a class="px-5 py-3 text-[#f74780] hover:bg-[#f74780] hover:text-white duration-500 transition-all rounded-full bg-[#f6f6fa]" href="">Read More</a></div>
+      </div>
+    </div>
+   </section>
+   <section class="md:grid-cols-4 md:px-5 sm:grid sm:grid-cols-2 grid grid-cols-1 place-items-start gap-10 sm:gap-5 lg:grid sm:place-items-center bg-[#f7f3fe] py-10 px-12 mt-28">
+    <div class="flex flex-col gap-3">
+      <h1 class="text-2xl font-bold">Company</h1>
+      <ul class="flex flex-col gap-2">
+        <li><a href="">Why Mailler?</a></li>
+        <li><a href="">Our Features</a></li>
+        <li><a href="">Our Portfolio</a></li>
+        <li><a href="">About Us</a></li>
+        <li><a href="">Our Blog & News</a></li>
+        <li><a href="">Get In Touch</a></li>
+
+      </ul>
+    </div>
+    <div class="flex flex-col gap-3">
+      <h1 class="text-2xl font-bold">Quick Links</h1>
+      <ul class="flex flex-col gap-2">
+        <li><a href="">About Us</a></li>
+        <li><a href="">Contact Us</a></li>
+        <li><a href="">Privacy Policy</a></li>
+        <li><a href="">Terms & Conditions</a></li>
+        <li><a href="">Our Blog & News</a></li>
+        <li><a href="">Our Team</a></li>
+
+      </ul>
+    </div>
+    <div class="flex flex-col gap-3">
+      <h1 class="text-lg font-bold">Services</h1>
+      <ul class="flex flex-col gap-2">
+        <li><a href="">All Services</a></li>
+        <li><a href="">Promotional Emails</a></li>
+        <li><a href="">Email marketing</a></li>
+        <li><a href="">About Us</a></li>
+        <li><a href="">Acquistion Emails</a></li>
+        <li><a href="">Retention Emails</a></li>
+
+      </ul>
+    </div>
+    <div class="flex flex-col gap-3">
+      <h1 class="text-lg font-bold">Company</h1>
+      <ul class="flex flex-col gap-2">
+        <li><a href=""><i class="fa fa-map-marker-alt me-2"></i> 123 Street, New York, USA</a></li>
+        <li><a href=""><i class="fas fa-envelope me-2"></i> info@example.com</a></li>
+        <li><a href=""><i class="fas fa-phone me-2"></i> +012 345 67890</a></li>
+        <li><a href="" class="mb-3"><i class="fas fa-print me-2"></i> +012 345 67890</a></li>
+        <div class="flex gap-2 items-center text-white">
+          <a href=""><i class="fas fa-share fa-2x text-secondary me-2 text-[#6610f2]"></i> <i class=""></i></a>
+          <a class="w-10 h-10 flex items-center justify-center rounded-full bg-[#f74780]" href=""><i class="fab fa-facebook-f"></i></a>
+          <a class="w-10 h-10 flex items-center justify-center rounded-full bg-[#f74780]" href=""><i class="fab fa-twitter"></i></a>
+          <a class="w-10 h-10 flex items-center justify-center rounded-full bg-[#f74780]" href=""><i class="fab fa-instagram"></i></a>
+          <a class="w-10 h-10 flex items-center justify-center rounded-full bg-[#f74780]" href=""><i class="fab fa-linkedin-in"></i></a>
+      </div>
+
+      </ul>
+    </div>
+ 
+   </section>
+   <footer class="bg-[#353f4f] w-full h-12 py-4 md:py-2 p-1  md:px-20">
+      <div class="flex justify-between  h-full">
+        <p class="text-white text-xs sm:text-lg"><i class="fas fa-copyright text-light text-white"></i> <span class="text-[#f74780]">Your Site Name,</span> All right reserved.</p>
+      <p class="text-white text-xs sm:text-lg">Designed By Ali Daher</p>
+      </div>
+
+   </footer>
+    <div class="w-12 h-12 bg-[#f74780] rounded-full hover:bg-transparent hover:border hover:border-[#f74780] transition-all duration-500 hover:text-[#f74780] fixed bottom-0 right-0 mr-5 mb-5 text-white font-bold flex items-center justify-center">
+        <a href="./index.html"><i class="fa-solid fa-arrow-up"></i></a>
+    </div>
+    <div class="blob"></div>
+
+    <!-- SVG Rings -->
+        <svg class=" ring ring1" width="300" height="300">
+            <circle cx="150" cy="150" r="140" stroke="rgba(255,0,100,0.08)" stroke-width="15" fill="none"/>
+          </svg>
+          <svg class="ring ring2" width="200" height="200">
+            <circle cx="100" cy="100" r="90" stroke="rgba(100,0,255,0.06)" stroke-width="15" fill="none"/>
+          </svg>
+          <svg class="ring ring3" width="120" height="120">
+            <circle cx="60" cy="60" r="50" stroke="rgba(255,0,100,0.08)" stroke-width="10" fill="none"/>
+          </svg>
+        
+          <!-- Content -->
+          
+          <style>
+               svg, svg * {
+            outline: none !important;
+            box-shadow: none !important;
+          }
+              body {
+                margin: 0;
+                font-family: sans-serif;
+                background: white;
+              }
+          
+              .container {
+                position: relative;
+                width: 100%;
+                height: 100vh;
+                padding: 60px;
+                box-sizing: border-box;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                z-index: 1;
+              }
+          
+              /* Large blob on right */
+              .blob {
+                position: absolute;
+                top: -15%;
+                right: -30%;
+                width: 1100px;
+                height: 1100px;
+                background: #f8f8fc;
+                border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+                animation: blobMove 12s ease-in-out infinite;
+                z-index: -2;
+              }
+          
+              @keyframes blobMove {
+                0%, 100% {
+                  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+                  transform: translate(0, 0);
+                }
+                50% {
+                  border-radius: 40% 60% 70% 30% / 50% 60% 40% 70%;
+                  transform: translate(20px, -20px);
+                }
+              }
+          
+              /* Floating Rings */
+              .ring {
+                position: absolute;
+                animation: float 8s ease-in-out infinite;
+                z-index: -1;
+              }
+              .ring1 {
+                top: 20%;
+                left: -10%;
+                animation-delay: 0s;
+              }
+              .ring2 {
+                top: 50%;
+                left: 5%;
+                animation-delay: 2s;
+              }
+              .ring3 {
+                top: 10%;
+                left: 15%;
+                animation-delay: 4s;
+              }
+          
+              @keyframes float {
+                0%, 100% { transform: translateY(0) rotate(0deg); }
+                50% { transform: translateY(-15px) rotate(5deg); }
+              }
+          
+              /* Button style */
+              .btn {
+                background: #f84577;
+                color: white;
+                padding: 14px 30px;
+                border-radius: 999px;
+                display: inline-block;
+                font-weight: bold;
+                text-decoration: none;
+                transition: background 0.3s;
+              }
+              .btn:hover {
+                background: #e23565;
+              }
+          
+              h1 {
+                color: #2b2f38;
+                font-size: 3rem;
+                margin-bottom: 10px;
+              }
+          
+              p {
+                color: #666;
+                font-size: 1rem;
+                max-width: 400px;
+                margin-bottom: 30px;
+              }
+            
+      
+            </style>
+    
+      <script src="./script.js"></script>
+</body>
+</html>
